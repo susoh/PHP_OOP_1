@@ -15,7 +15,7 @@
 
             public function getVerso() {
                 return $this->verso;
-            }
+            } 
         }
     ?>
 </body>

@@ -7,7 +7,15 @@
 </head>
 <body>
     <?php
-        
+        require "Veicolo.php";
+        class Automobile extends Veicolo{
+            public $modello;
+            public function __construct($targa, $marca, $modello)
+            {
+                parent::__construct($targa, $marca);
+                $this->modello = $modello;
+            }
+        }
     ?>
 </body>
 </html>
